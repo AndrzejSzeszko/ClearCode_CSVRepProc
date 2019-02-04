@@ -11,7 +11,7 @@ class CSVConvertTestCase(unittest.TestCase):
     generated form 'example_input_utf8.csv' and 'example_input_utf16.csv'
     Running:
         1) navigate to directory containning this file
-        2) python -m unitest tests.py
+        2) run "python -m unitest tests.py"
     """
     def setUp(self):
         self.test_input_file_utf8 = 'example_input_utf8.csv'
