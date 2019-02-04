@@ -17,7 +17,7 @@ eg.: 2019-01-21,GIN,959,4
 2) Create and activate virtual environment and install required packages.
 3) In terminal navigate to directory containing CSVRepProc.py.
 4) Run script using "python3.7 CSVRepProc.py example_input_utf8.csv". Notice the output in the terminal saying that basically everything went successfully. New file called "example_input_utf8_output.csv" should appear in current directory.
-5) Compare content of this file with "example_output.csv" delivered by ClearCode.
+5) Compare content of this file with "example_output.csv" delivered by ClearCode and notice that they are the same.
 ##### Moreover:
 6) Run script with other delivered files passed as an argument ("example_input_utf16.csv" and "example_input_invalid.csv").<br>
 7) Notice (or not) different terminal outputs and different content of newly created files.
