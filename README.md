@@ -47,4 +47,4 @@ This checklist assumes that you are using Ubuntu 16.04 or higher, and have pytho
     eg.: (env)$ python3.7 CSVRepProc.py example_input_utf8.csv
     ```
     This command creates output file named "<input_file_name>_output.csv" in current directory.
-    In terminal there should appear "Done." message, and info about which lines have been skipped because of errors detected, and what those errors were. Criteria for claiming line invalid are described directly in source code docstrings.
+    In terminal there should appear "Done." message, and info about which lines have been skipped because of detected errors, and what those errors were. Criteria for claiming line invalid are described directly in source code docstrings.
