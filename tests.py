@@ -10,7 +10,7 @@ class CSVConvertTestCase(unittest.TestCase):
     Compares content of 'example_output.csv' file with content of files
     generated form 'example_input_utf8.csv' and 'example_input_utf16.csv'
     Running:
-        1) navigate to directory containning this file
+        1) navigate to directory containing this file
         2) run "python -m unitest tests.py"
     """
     def setUp(self):
