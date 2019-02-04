@@ -12,9 +12,8 @@ class CSVConvertTestCase(unittest.TestCase):
     Running terminal command: python -m unitest tests.py
     """
     def setUp(self):
-        self.cwd = os.getcwd()
-        self.test_input_file_utf8 = os.path.join(self.cwd, 'example_input_utf8.csv')
-        self.test_input_file_utf16 = os.path.join(self.cwd, 'example_input_utf16.csv')
+        self.test_input_file_utf8 = 'example_input_utf8.csv'
+        self.test_input_file_utf16 = 'example_input_utf16.csv'
 
     def tearDown(self):
         os.remove('example_input_utf8_output.csv')
