@@ -1,26 +1,26 @@
 # ClearCode internship task 2019 - CSVReportProcessing
 ## Description:
-This project basically convert CSV files (with commas as separators) having rows of the following values:
+This project basically converts CSV files (with commas as separators) having rows of the following values:
 ```
 mm/dd/YYYY, ISO 3166-2 subdivision, number of impressions, CTR as %
 eg.: 01/21/2019,Mandiana,883,0.38%
      01/21/2019,Lola,76,0.78%
 ```
-into differently formatted CSV (also with comma separated values) and merge rows that belongs the same country and date:
+into differently formatted CSV (also with comma separated values) and merge rows that belongs to the same country and date:
 ```
 YYYY-mm-dd, ISO 3166 country alpha3 code, number of impressions, number of clicks
 eg.: 2019-01-21,GIN,959,4
 ```
 
 ## QuickStart
-1) Clone project to your machine.
-2) Create virtual environment and install required packages.
+1) Clone project on your machine.
+2) Create and activate virtual environment and install required packages.
 3) In terminal navigate to directory containing CSVRepProc.py.
 4) Run script using "python3.7 CSVRepProc.py example_input_utf8.csv". Notice the output in the terminal saying that basically everything went successfully. New file called "example_input_utf8_output.csv" should appear in current directory.
 5) Compare content of this file with "example_output.csv" delivered by ClearCode.
 ##### Moreover:
 6) Run script with other delivered files passed as an argument ("example_input_utf16.csv" and "example_input_invalid.csv").<br>
-7) Notice (or not) different terminal outputs and different content of created files.
+7) Notice (or not) different terminal outputs and different content of newly created files.
 
 ## SlowStart
 This checklist assumes that you are using Ubuntu 16.04 or higher, and have python3.7, git, pip and some stuff for creating virtual environments installed. And you can use it a little.
