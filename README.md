@@ -28,21 +28,21 @@ This checklist assumes that you are using Ubuntu 16.04 or higher, and have pytho
     ```
     $ cd path/to/directory/of/your/choice
     ```
-2) Clone project to your machine:
-    ```angular2html
+2) Clone project on your machine:
+    ```
     $ git clone https://github.com/AndrzejSzeszko/ClearCode_CSVRepProc.git
     ```
 3) Create and activate new virtual environment using tool and location of your choice. Remember to use python3.7 as an interpreter.  You can skip this step if you don't care about python packages conflicts (OK, I know you do)
 4) Navigate to directory containing CSVRepProc.py:
-    ```angular2html
+    ```
     (env)$ cd path/to/directory/containing/mentioned/file
     ```
 5) Chosen location should also have "requirements.txt" contained. Install required modules using pip:
-    ```angular2html
+    ```
     (env)$ pip install -r requirements.txt
     ```
 6) Run CSVRepProc.py and pass to it some csv file you want to convert:
-    ```commandline
+    ```
     (env)$ python3.7 CSVRepProc.py relative/or/absolute/path/to/input/csv/file
     eg.: (env)$ python3.7 CSVRepProc.py example_input_utf8.csv
     ```
